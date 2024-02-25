@@ -51,8 +51,10 @@ def test_can_create_task():
     assert payload["user_id"] == data_get_task["user_id"]
 
 
-def test_can_get_task():
-    test_can_create_task()
+class me:
+
+    def test_can_get_task():
+        test_can_create_task()
 
 
 def test_can_update_task():
